@@ -1,0 +1,8 @@
+streamlit
+psutil
+pandas
+plotly
+requests
+python-dotenv
+watchdog
+aiofiles
