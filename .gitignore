@@ -1,0 +1,180 @@
+# Binaries and executables
+/bin/
+*.exe
+*.out
+*.app
+S1
+S2
+S3
+S4
+s25client
+
+# Object files
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Static analysis
+*.gcno
+*.gcda
+*.gcov
+
+# Core dumps
+core
+core.*
+vgcore.*
+
+# Temporary files
+*~
+*.tmp
+*.temp
+.#*
+\#*#
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Log files
+logs/
+*.log
+*.log.*
+*.pid
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+# Note: streamlit_env/ is kept as it's part of the project
+
+# Streamlit
+.streamlit/
+
+# Configuration files with secrets
+config.ini
+.env.local
+.env.production
+secrets.toml
+
+# Data and storage
+storage/
+data/
+uploads/
+downloads/
+# Note: S1, S2, S3, S4 directories in home folder are not tracked
+
+# Backup files
+*.bak
+*.backup
+backup_*
+*.tar.gz
+*.zip
+
+# Test artifacts
+test_output/
+test_results/
+coverage/
+htmlcov/
+.coverage
+.pytest_cache/
+.tox/
+
+# Documentation
+docs/_build/
+docs/html/
+docs/latex/
+
+# Package managers
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime
+nohup.out
+
+# Certificates and keys
+*.key
+*.crt
+*.pem
+*.p12
+*.pfx
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Archives
+*.tar
+*.tgz
+*.rar
+*.7z
+
+# Large files
+*.iso
+*.dmg
+*.img
+
+# Lock files
+poetry.lock
+Pipfile.lock
+package-lock.json
+yarn.lock
